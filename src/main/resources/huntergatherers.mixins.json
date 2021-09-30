@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.martinfloden.huntergatherers.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "HunterGatherersMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
