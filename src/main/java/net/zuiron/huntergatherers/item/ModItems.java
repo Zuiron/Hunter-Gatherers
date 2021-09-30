@@ -1,7 +1,7 @@
-package net.martinfloden.huntergatherers.item;
+package net.zuiron.huntergatherers.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.martinfloden.huntergatherers.HunterGatherers;
+import net.zuiron.huntergatherers.HunterGatherers;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;

@@ -1,7 +1,7 @@
-package net.martinfloden.huntergatherers;
+package net.zuiron.huntergatherers;
 
 import net.fabricmc.api.ModInitializer;
-import net.martinfloden.huntergatherers.item.ModItems;
+import net.zuiron.huntergatherers.item.ModItems;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

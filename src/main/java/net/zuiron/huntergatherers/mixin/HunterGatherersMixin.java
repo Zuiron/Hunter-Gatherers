@@ -1,6 +1,6 @@
-package net.martinfloden.huntergatherers.mixin;
+package net.zuiron.huntergatherers.mixin;
 
-import net.martinfloden.huntergatherers.HunterGatherers;
+import net.zuiron.huntergatherers.HunterGatherers;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

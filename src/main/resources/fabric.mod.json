@@ -4,22 +4,22 @@
   "version": "${version}",
 
   "name": "Hunter Gatherer's",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Hunt & Gather, very early game & random small additions!",
   "authors": [
-    "Martin Floden"
+    "Zuiron"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Zuiron/Hunter-Gatherers",
+    "sources": "https://github.com/Zuiron/Hunter-Gatherers"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.martinfloden.huntergatherers.HunterGatherers"
+      "net.zuiron.huntergatherers.HunterGatherers"
     ]
   },
   "mixins": [
