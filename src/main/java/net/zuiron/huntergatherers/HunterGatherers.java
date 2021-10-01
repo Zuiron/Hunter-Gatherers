@@ -31,6 +31,7 @@ public class HunterGatherers implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
+		modifyLootTables();
 
 		LOGGER.info("Hunter Gatherer's mod says HELLO WORLD! -Zuiron");
 	}
