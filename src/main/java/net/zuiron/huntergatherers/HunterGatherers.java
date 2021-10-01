@@ -23,6 +23,7 @@ public class HunterGatherers implements ModInitializer {
 	public static final String MOD_ID = "huntergatherers";
 
 	private static final Identifier OAK_LEAVES_BLOCK_LOOT_TABLE_ID = new Identifier("minecraft", "blocks/oak_leaves");
+	private static final Identifier WHITE_SHEEP_LOOT_TABLE_ID = new Identifier("minecraft", "entities/sheep/white");
 
 	@Override
 	public void onInitialize() {
@@ -39,13 +40,25 @@ public class HunterGatherers implements ModInitializer {
 	//try modify leaves to also drop sticks.
 	private void modifyLootTables(){
 		LootTableLoadingCallback.EVENT.register(((resourceManager, manager, id, supplier, setter) -> {
+
 			//check for leaves loot table.
 			if(OAK_LEAVES_BLOCK_LOOT_TABLE_ID.equals(id)) {
 				//add sticks to oak leaves loot table.
 				FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
 						.rolls(ConstantLootNumberProvider.create(1))
 						.with(ItemEntry.builder(Items.STICK))
-						.withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 4.0f)).build());
+						.withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(0.0f, 1.0f)).build());
+				supplier.withPool(poolBuilder.build());
+			}
+
+			//check for white sheep
+			if(WHITE_SHEEP_LOOT_TABLE_ID.equals(id)) {
+				//add raw white wool to white sheep loot table
+				FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
+						.rolls(ConstantLootNumberProvider.create(1))
+						.with(ItemEntry.builder(ModItems.WOOLRAW))
+						.with(ItemEntry.builder(Items.BONE))
+						.withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 				supplier.withPool(poolBuilder.build());
 			}
 
