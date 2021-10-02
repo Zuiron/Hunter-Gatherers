@@ -148,6 +148,7 @@ public class ModItems {
                     .group(ItemGroup.MISC)
             ));
 
+
     //register items.
     private static Item registerItem(String name, Item item){
         HunterGatherers.LOGGER.info("Registering item with name: " + name);

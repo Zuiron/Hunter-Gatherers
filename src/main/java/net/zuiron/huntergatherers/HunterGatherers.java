@@ -1,6 +1,7 @@
 package net.zuiron.huntergatherers;
 
 import net.fabricmc.api.ModInitializer;
+import net.zuiron.huntergatherers.block.ModBlocks;
 import net.zuiron.huntergatherers.item.ModItems;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -21,7 +22,8 @@ public class HunterGatherers implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
-		//modifyLootTables(); //MOVED
+		ModBlocks.registerModBlocks();
+
 		modifyLootTables.registerModifyLootTables();
 
 		LOGGER.info("Hunter Gatherer's mod says HELLO WORLD! -Zuiron");
