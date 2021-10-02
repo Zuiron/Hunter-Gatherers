@@ -10,7 +10,37 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     //Raw Wool
-    public static final Item WOOLRAW = registerItem("wool_raw_white",
+    public static final Item WOOLRAW_BLACK = registerItem("wool_raw_black",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_BROWN = registerItem("wool_raw_brown",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_CYAN = registerItem("wool_raw_cyan",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_BLUE = registerItem("wool_raw_blue",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_DARK_GRAY = registerItem("wool_raw_dark_gray",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_GRAY = registerItem("wool_raw_gray",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_GREEN = registerItem("wool_raw_green",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_LIGHT_BLUE = registerItem("wool_raw_light_blue",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_LIME = registerItem("wool_raw_lime",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_MAGENTA = registerItem("wool_raw_magenta",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_ORANGE = registerItem("wool_raw_orange",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_PINK = registerItem("wool_raw_pink",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_PURPLE = registerItem("wool_raw_purple",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_RED = registerItem("wool_raw_red",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_WHITE = registerItem("wool_raw_white",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WOOLRAW_YELLOW = registerItem("wool_raw_yellow",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     //Leaf
