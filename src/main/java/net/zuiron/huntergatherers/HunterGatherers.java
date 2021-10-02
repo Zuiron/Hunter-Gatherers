@@ -51,6 +51,10 @@ public class HunterGatherers implements ModInitializer {
 				supplier.withPool(poolBuilder.build());
 			}
 
+			/*
+			//actually we will completely override vanilla sheep loottable because we dont want normal wool
+			//to drop from sheep when killing it. and also override sheep meat loot table.
+
 			//check for white sheep
 			if(WHITE_SHEEP_LOOT_TABLE_ID.equals(id)) {
 				//add raw white wool to white sheep loot table
@@ -61,6 +65,7 @@ public class HunterGatherers implements ModInitializer {
 						.withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 				supplier.withPool(poolBuilder.build());
 			}
+			*/
 
 		} ));
 	}
