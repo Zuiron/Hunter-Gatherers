@@ -3,12 +3,58 @@ package net.zuiron.huntergatherers.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.fluid.FlowableFluid;
 import net.minecraft.fluid.Fluids;
-import net.minecraft.item.BucketItem;
+import net.minecraft.item.*;
+import net.minecraft.recipe.Ingredient;
 import net.zuiron.huntergatherers.HunterGatherers;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+
+class PotatoToolMaterial implements ToolMaterial {
+
+    public static final PotatoToolMaterial INSTANCE = new PotatoToolMaterial();
+
+    @Override
+    public int getDurability() {
+        return 0;
+    }
+
+    @Override
+    public float getMiningSpeedMultiplier() {
+        return 0;
+    }
+
+    @Override
+    public float getAttackDamage() {
+        return 0;
+    }
+
+    @Override
+    public int getMiningLevel() {
+        return 0;
+    }
+
+    @Override
+    public int getEnchantability() {
+        return 0;
+    }
+
+    @Override
+    public Ingredient getRepairIngredient() {
+        return null;
+    }
+}
+
+class CustomPickaxeItem extends PickaxeItem {
+    public CustomPickaxeItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
+        super(material, attackDamage, attackSpeed, settings);
+    }
+}
+
+class CustomAxeItem extends AxeItem {
+    public CustomAxeItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
+        super(material, attackDamage, attackSpeed, settings);
+    }
+}
 
 public class ModItems {
 
@@ -75,6 +121,21 @@ public class ModItems {
     //flint items
     public static final Item SHARP_FLINT_FRAGMENT = registerItem("sharp_flint_fragment",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+
+    //public static ToolItem POTATO_SHOVEL = new ShovelItem(PotatoToolMaterial.INSTANCE, 1.5F, -3.0F, new Item.Settings().group(ItemGroup.TOOLS));
+    //public static ToolItem POTATO_SWORD = new SwordItem(PotatoToolMaterial.INSTANCE, 3, -2.4F, new Item.Settings().group(ItemGroup.COMBAT));
+
+    //public static ToolItem POTATO_PICKAXE = new CustomPickaxeItem(PotatoToolMaterial.INSTANCE, 1, -2.8F, new Item.Settings().group(ItemGroup.TOOLS));
+    //public static ToolItem POTATO_AXE = new CustomAxeItem(PotatoToolMaterial.INSTANCE, 7.0F, -3.2F, new Item.Settings().group(ItemGroup.TOOLS));
+    //public static ToolItem POTATO_HOE = new CustomHoeItem(PotatoToolMaterial.INSTANCE, 7, -3.2F, new Item.Settings().group(ItemGroup.TOOLS));
+
+    public static final Item FLINT_KNIFE = registerItem("flint_knife",
+            new CustomAxeItem(PotatoToolMaterial.INSTANCE,
+                    1,
+                    1,
+                    new FabricItemSettings().group(ItemGroup.MISC)));
+
 
     //clay bucket
     public static final Item CLAY_BUCKET_UNFIRED = registerItem("bucket_clay_unfired",
