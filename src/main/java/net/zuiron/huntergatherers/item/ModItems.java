@@ -1,6 +1,9 @@
 package net.zuiron.huntergatherers.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.fluid.FlowableFluid;
+import net.minecraft.fluid.Fluids;
+import net.minecraft.item.BucketItem;
 import net.zuiron.huntergatherers.HunterGatherers;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -72,6 +75,17 @@ public class ModItems {
     //flint items
     public static final Item SHARP_FLINT_FRAGMENT = registerItem("sharp_flint_fragment",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+    //clay bucket
+    public static final Item CLAY_BUCKET_UNFIRED = registerItem("bucket_clay_unfired",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item CLAY_BUCKET_FIRED = registerItem("bucket_clay_fired",
+            new BucketItem(Fluids.EMPTY, new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item CLAY_BUCKET_FIRED_WATER = registerItem("bucket_clay_fired_water",
+            new BucketItem(Fluids.WATER, new FabricItemSettings()
+                    .recipeRemainder(ModItems.CLAY_BUCKET_FIRED)
+                    .group(ItemGroup.MISC)
+            ));
 
     //register items.
     private static Item registerItem(String name, Item item){
