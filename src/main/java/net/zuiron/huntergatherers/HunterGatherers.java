@@ -1,6 +1,9 @@
 package net.zuiron.huntergatherers;
 
+import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.client.render.RenderLayer;
 import net.zuiron.huntergatherers.block.ModBlocks;
 import net.zuiron.huntergatherers.item.ModItems;
 import org.apache.logging.log4j.LogManager;
@@ -28,4 +31,5 @@ public class HunterGatherers implements ModInitializer {
 
 		LOGGER.info("Hunter Gatherer's mod says HELLO WORLD! -Zuiron");
 	}
+
 }
