@@ -9,14 +9,25 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item WOOLRAW = registerItem("woolraw",
-        new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    //Raw Wool
+    public static final Item WOOLRAW = registerItem("wool_raw_white",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    //Leaf
+    public static final Item LEAF_OAK = registerItem("leaf_oak",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+    //Cones
+    public static final Item CONE_OAK = registerItem("cone_oak",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+    //register items.
     private static Item registerItem(String name, Item item){
+        HunterGatherers.LOGGER.info("Registering item with name: " + name);
         return Registry.register(Registry.ITEM, new Identifier(HunterGatherers.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
-        System.out.println("Registering Mod Items for " + HunterGatherers.MOD_ID);
+        System.out.println("Registered Mod Items for " + HunterGatherers.MOD_ID);
     }
 }
