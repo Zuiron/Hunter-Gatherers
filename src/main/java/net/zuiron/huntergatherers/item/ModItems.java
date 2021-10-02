@@ -69,6 +69,10 @@ public class ModItems {
     public static final Item BARK_SPRUCE = registerItem("bark_spruce",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    //flint items
+    public static final Item SHARP_FLINT_FRAGMENT = registerItem("sharp_flint_fragment",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
     //register items.
     private static Item registerItem(String name, Item item){
         HunterGatherers.LOGGER.info("Registering item with name: " + name);
