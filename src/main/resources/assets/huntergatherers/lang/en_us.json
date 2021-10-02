@@ -1,5 +1,7 @@
 {
   "item.huntergatherers.wool_raw_white": "White Raw Wool",
   "item.huntergatherers.leaf_oak": "Oak Leaf",
-  "item.huntergatherers.cone_oak": "Oak Cone"
+  "item.huntergatherers.leaf_birch": "Birch Leaf",
+  "item.huntergatherers.cone_oak": "Oak Cone",
+  "item.huntergatherers.cone_birch": "Birch Cone"
 }

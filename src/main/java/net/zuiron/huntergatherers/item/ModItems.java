@@ -16,9 +16,13 @@ public class ModItems {
     //Leaf
     public static final Item LEAF_OAK = registerItem("leaf_oak",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item LEAF_BIRCH = registerItem("leaf_birch",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     //Cones
     public static final Item CONE_OAK = registerItem("cone_oak",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item CONE_BIRCH = registerItem("cone_birch",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     //register items.
