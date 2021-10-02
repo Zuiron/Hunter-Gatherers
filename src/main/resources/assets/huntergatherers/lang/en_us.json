@@ -25,5 +25,8 @@
   "item.huntergatherers.bark_jungle": "Jungle Bark",
   "item.huntergatherers.bark_oak": "Oak Bark",
   "item.huntergatherers.bark_spruce": "Spruce Bark",
-  "item.huntergatherers.sharp_flint_fragment": "Sharp Flint Fragment"
+  "item.huntergatherers.sharp_flint_fragment": "Sharp Flint Fragment",
+  "item.huntergatherers.bucket_clay_unfired": "Unfired Clay Bucket",
+  "item.huntergatherers.bucket_clay_fired": "Fired Clay Bucket",
+  "item.huntergatherers.bucket_clay_fired_water": "Fired Clay Bucket"
 }
