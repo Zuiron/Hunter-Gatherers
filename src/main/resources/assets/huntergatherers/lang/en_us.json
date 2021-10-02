@@ -3,5 +3,11 @@
   "item.huntergatherers.leaf_oak": "Oak Leaf",
   "item.huntergatherers.leaf_birch": "Birch Leaf",
   "item.huntergatherers.cone_oak": "Oak Cone",
-  "item.huntergatherers.cone_birch": "Birch Cone"
+  "item.huntergatherers.cone_birch": "Birch Cone",
+  "item.huntergatherers.bark_acacia": "Acacia Bark",
+  "item.huntergatherers.bark_birch": "Birch Bark",
+  "item.huntergatherers.bark_dark_oak": "Dark Oak Bark",
+  "item.huntergatherers.bark_jungle": "Jungle Bark",
+  "item.huntergatherers.bark_oak": "Oak Bark",
+  "item.huntergatherers.bark_spruce": "Spruce Bark"
 }

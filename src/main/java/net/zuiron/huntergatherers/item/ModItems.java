@@ -25,6 +25,20 @@ public class ModItems {
     public static final Item CONE_BIRCH = registerItem("cone_birch",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    //Bark
+    public static final Item BARK_ACACIA = registerItem("bark_acacia",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BARK_BIRCH = registerItem("bark_birch",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BARK_DARK_OAK = registerItem("bark_dark_oak",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BARK_JUNGLE = registerItem("bark_jungle",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BARK_OAK = registerItem("bark_oak",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BARK_SPRUCE = registerItem("bark_spruce",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
     //register items.
     private static Item registerItem(String name, Item item){
         HunterGatherers.LOGGER.info("Registering item with name: " + name);
