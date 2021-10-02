@@ -14,7 +14,7 @@ public class HunterGatherersClient implements ClientModInitializer {
     public void onInitializeClient() {
         //BlockRenderLayerMapImpl.INSTANCE.putBlocks(RenderLayer.getCutout(), ModBlocks.FLORAMELISSIA);
         //BlockRenderLayerMapImpl.INSTANCE.putBlocks(RenderLayer.getTranslucent(), ModBlocks.FLORAMELISSIA);
-        //BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLORAMELISSIA, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLORAMELISSIA, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLORAMELISSIA, RenderLayer.getCutout());
+        //BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLORAMELISSIA, RenderLayer.getTranslucent());
     }
 }
