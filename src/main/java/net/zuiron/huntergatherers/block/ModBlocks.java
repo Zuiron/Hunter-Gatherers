@@ -23,7 +23,7 @@ public class ModBlocks {
 
     //flowers
     public static final Block FLORAMELISSIA = registerBlock("floramelissia",
-            new FlowerBlock(StatusEffect.byRawId(1),1, AbstractBlock.Settings.copy(Blocks.POPPY)));
+            new FlowerBlock(StatusEffect.byRawId(1),1, AbstractBlock.Settings.copy(Blocks.POPPY).nonOpaque()));
         //new Block(FabricBlockSettings.of(Material.REPLACEABLE_PLANT).noCollision()));
 
 
