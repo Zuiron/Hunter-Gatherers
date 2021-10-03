@@ -261,6 +261,10 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item SHEEP_BONES = registerItem("sheep_bones",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item GRASS_FIBRE = registerItem("grass_fibre",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item GRASS_TWINE = registerItem("grass_twine",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
 
     //register items.
