@@ -259,6 +259,8 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item STONE_LARGE = registerItem("stone_large",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item STONE_LONG = registerItem("stone_long",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item SHEEP_BONES = registerItem("sheep_bones",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item GRASS_FIBRE = registerItem("grass_fibre",
