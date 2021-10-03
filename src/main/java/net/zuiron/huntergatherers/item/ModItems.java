@@ -1,7 +1,9 @@
 package net.zuiron.huntergatherers.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FlowableFluid;
+import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.*;
 import net.minecraft.recipe.Ingredient;
@@ -54,6 +56,15 @@ class CustomAxeItem extends AxeItem {
     public CustomAxeItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
         super(material, attackDamage, attackSpeed, settings);
     }
+}
+
+class CustomBucketItem extends BucketItem {
+
+    public CustomBucketItem(Fluid fluid, Settings settings) {
+        super(fluid, settings);
+    }
+
+    //TODO. um looking at other code on github suggests we need to extend Item instead of BucketItem.
 }
 
 public class ModItems {
@@ -141,9 +152,9 @@ public class ModItems {
     public static final Item CLAY_BUCKET_UNFIRED = registerItem("bucket_clay_unfired",
             new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item CLAY_BUCKET_FIRED = registerItem("bucket_clay_fired",
-            new BucketItem(Fluids.EMPTY, new FabricItemSettings().group(ItemGroup.MISC)));
+            new CustomBucketItem(Fluids.EMPTY, new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item CLAY_BUCKET_FIRED_WATER = registerItem("bucket_clay_fired_water",
-            new BucketItem(Fluids.WATER, new FabricItemSettings()
+            new CustomBucketItem(Fluids.WATER, new FabricItemSettings()
                     .recipeRemainder(ModItems.CLAY_BUCKET_FIRED)
                     .group(ItemGroup.MISC)
             ));
