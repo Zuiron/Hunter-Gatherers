@@ -1,8 +1,10 @@
 # Hunter-Gatherers-1.17.1
 
-made for FABRIC only. (it's better cmon...)
+Made for FABRIC only.
 
 This mod aims to add an "age" before wood to extend gameplay. See name "Hunter Gatherer".
-you cannot punch trees for example so gather and hunt resources to progress.
+You cannot punch trees for example so gather and hunt resources to progress.
 
-WARNING: this mod is still very much WIP there is no releases yet.
+
+---
+MOD made possible by [Tutorials-By-Kaupenjoe](https://www.youtube.com/channel/UCbzPhyLcO8VP25dZ7kaUyAw) Awesome fabric tutorials.

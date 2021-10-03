@@ -230,6 +230,14 @@ public class ModItems {
                     1,
                     new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item STONE_MALLET = registerItem("stone_mallet",
+            new SwordItem(PotatoToolMaterial.INSTANCE,
+                    3,
+                    -2.4f,
+                    new FabricItemSettings().group(ItemGroup.MISC)));
+
+    //public static ToolItem POTATO_SWORD = new SwordItem(PotatoToolMaterial.INSTANCE, 3, -2.4F, new Item.Settings().group(ItemGroup.COMBAT));
+
 
     //clay bucket
     public static final Item CLAY_BUCKET_UNFIRED = registerItem("bucket_clay_unfired",
@@ -246,6 +254,13 @@ public class ModItems {
             new Item(new FabricItemSettings()
                     .food(new FoodComponent.Builder().hunger(2).saturationModifier(0.2f).build())
                     .group(ItemGroup.MISC)));
+
+    public static final Item STONE_SMALL = registerItem("stone_small",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item STONE_LARGE = registerItem("stone_large",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item SHEEP_BONES = registerItem("sheep_bones",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
 
     //register items.
