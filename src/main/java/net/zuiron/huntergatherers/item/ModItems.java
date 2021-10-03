@@ -242,6 +242,11 @@ public class ModItems {
                     .group(ItemGroup.MISC)
             ));
 
+    public static final Item BLUEBERRY = registerItem("blueberry",
+            new Item(new FabricItemSettings()
+                    .food(new FoodComponent.Builder().hunger(2).saturationModifier(0.2f).build())
+                    .group(ItemGroup.MISC)));
+
 
     //register items.
     private static Item registerItem(String name, Item item){
