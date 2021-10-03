@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B",
+    "B#"
+  ],
+  "key": {
+    "B": {
+      "item": "huntergatherers:sharp_flint_fragment"
+    },
+    "#": {
+      "item": "huntergatherers:stone_small"
+    }
+  },
+  "result": {
+    "item": "huntergatherers:flint_knife",
+    "count": 1
+  }
+}

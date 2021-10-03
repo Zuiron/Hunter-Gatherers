@@ -1,22 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#B",
-    "BO"
+    "CB",
+    "B#"
   ],
   "key": {
-    "#": {
-      "item": "huntergatherers:stone_long"
+    "C": {
+      "item": "huntergatherers:cone_oak"
     },
     "B": {
-      "item": "huntergatherers:sturdy_stick"
+      "item": "huntergatherers:branch_oak"
     },
-    "O": {
+    "#": {
       "item": "huntergatherers:grass_twine_dry"
     }
   },
   "result": {
-    "item": "huntergatherers:stone_mallet",
+    "item": "huntergatherers:sturdy_stick",
     "count": 1
   }
 }

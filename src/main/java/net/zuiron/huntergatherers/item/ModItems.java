@@ -265,7 +265,14 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item GRASS_FIBRE = registerItem("grass_fibre",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item GRASS_TWINE_DRY = registerItem("grass_twine_dry",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item GRASS_TWINE = registerItem("grass_twine",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+    public static final Item BRANCH_OAK = registerItem("branch_oak",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item STURDY_STICK = registerItem("sturdy_stick",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
 
