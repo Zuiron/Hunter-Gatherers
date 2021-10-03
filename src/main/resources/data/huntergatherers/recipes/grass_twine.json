@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "#O"
+  ],
+  "key": {
+    "#": {
+      "item": "huntergatherers:grass_fibre"
+    },
+    "O": {
+      "item": "huntergatherers:leaf_oak"
+    }
+  },
+  "result": {
+    "item": "huntergatherers:grass_twine",
+    "count": 1
+  }
+}
