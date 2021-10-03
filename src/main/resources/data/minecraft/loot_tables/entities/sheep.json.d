@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bone"
+          "name": "huntergatherers:sheep_bone"
         },
         {
           "type": "minecraft:item",
