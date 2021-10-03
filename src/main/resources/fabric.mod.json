@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.zuiron.huntergatherers.HunterGatherers"
+    ],
+    "client": [
+      "net.zuiron.huntergatherers.client.HunterGatherersClient"
     ]
   },
   "mixins": [
