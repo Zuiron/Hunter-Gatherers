@@ -3,10 +3,14 @@ package net.zuiron.huntergatherers;
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
 import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
 import net.minecraft.item.Items;
+import net.minecraft.loot.condition.LootCondition;
+import net.minecraft.loot.condition.LootConditionManager;
+import net.minecraft.loot.condition.MatchToolLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.minecraft.predicate.item.ItemPredicate;
 import net.minecraft.util.Identifier;
 import net.zuiron.huntergatherers.item.ModItems;
 
@@ -16,10 +20,21 @@ public class modifyLootTables {
     private static final Identifier BIRCH_LEAVES_BLOCK_LOOT_TABLE_ID = new Identifier("minecraft", "blocks/birch_leaves");
     //private static final Identifier WHITE_SHEEP_LOOT_TABLE_ID = new Identifier("minecraft", "entities/sheep/white");
     private static final Identifier COMMON_SHEEP_LOOT_TABLE_ID = new Identifier("minecraft", "entities/sheep");
+    private static final Identifier GRASS_ID = new Identifier("minecraft", "blocks/grass");
 
     public static void registerModifyLootTables() {
 
         LootTableLoadingCallback.EVENT.register(((resourceManager, manager, id, supplier, setter) -> {
+
+            //grass block, when using flint knife drop grass fibre.
+            if(GRASS_ID.equals(id)) {
+                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .with(ItemEntry.builder(ModItems.GRASS_FIBRE))
+                        .withCondition(MatchToolLootCondition.builder(ItemPredicate.Builder.create().items(ModItems.FLINT_KNIFE)).build())
+                        .withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(0.0f, 1.0f)).build());
+                supplier.withPool(poolBuilder.build());
+            }
 
             //modify oak leaves.
             if(OAK_LEAVES_BLOCK_LOOT_TABLE_ID.equals(id)) {
