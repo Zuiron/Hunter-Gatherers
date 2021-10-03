@@ -58,13 +58,11 @@ class CustomAxeItem extends AxeItem {
     }
 }
 
+//FIX LATER. um looking at other code on github suggests we need to extend Item instead of BucketItem.
 class CustomBucketItem extends BucketItem {
-
     public CustomBucketItem(Fluid fluid, Settings settings) {
         super(fluid, settings);
     }
-
-    //TODO. um looking at other code on github suggests we need to extend Item instead of BucketItem.
 }
 
 public class ModItems {
