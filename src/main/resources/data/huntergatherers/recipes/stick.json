@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sticks",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:branches"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 2
+  }
+}
