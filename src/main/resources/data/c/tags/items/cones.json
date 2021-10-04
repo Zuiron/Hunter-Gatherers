@@ -1,7 +1,11 @@
 {
   "replace": false,
   "values": [
+    "huntergatherers:cone_acacia",
+    "huntergatherers:cone_birch",
+    "huntergatherers:cone_dark_oak",
+    "huntergatherers:cone_jungle",
     "huntergatherers:cone_oak",
-    "huntergatherers:cone_birch"
+    "huntergatherers:cone_spruce"
   ]
 }

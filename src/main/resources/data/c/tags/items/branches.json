@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "huntergatherers:branch_oak"
+    "huntergatherers:branch_acacia",
+    "huntergatherers:branch_birch",
+    "huntergatherers:branch_dark_oak",
+    "huntergatherers:branch_jungle",
+    "huntergatherers:branch_oak",
+    "huntergatherers:branch_spruce"
   ]
 }

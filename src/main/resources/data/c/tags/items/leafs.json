@@ -1,7 +1,11 @@
 {
   "replace": false,
   "values": [
+    "huntergatherers:leaf_acacia",
+    "huntergatherers:leaf_birch",
+    "huntergatherers:leaf_dark_oak",
+    "huntergatherers:leaf_jungle",
     "huntergatherers:leaf_oak",
-    "huntergatherers:leaf_birch"
+    "huntergatherers:leaf_spruce"
   ]
 }
