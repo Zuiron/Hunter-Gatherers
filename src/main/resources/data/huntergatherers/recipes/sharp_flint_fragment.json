@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# ",
+    "F "
+  ],
+  "key": {
+    "#": {
+      "item": "huntergatherers:stone_small_pile"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "huntergatherers:sharp_flint_fragment",
+    "count": 1
+  }
+}
