@@ -187,15 +187,31 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     //Leaf
-    public static final Item LEAF_OAK = registerItem("leaf_oak",
+    public static final Item LEAF_ACACIA = registerItem("leaf_acacia",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item LEAF_BIRCH = registerItem("leaf_birch",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item LEAF_DARK_OAK = registerItem("leaf_dark_oak",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item LEAF_JUNGLE = registerItem("leaf_jungle",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item LEAF_OAK = registerItem("leaf_oak",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item LEAF_SPRUCE = registerItem("leaf_spruce",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     //Cones
-    public static final Item CONE_OAK = registerItem("cone_oak",
+    public static final Item CONE_ACACIA = registerItem("cone_acacia",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item CONE_BIRCH = registerItem("cone_birch",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item CONE_DARK_OAK = registerItem("cone_dark_oak",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item CONE_JUNGLE = registerItem("cone_jungle",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item CONE_OAK = registerItem("cone_oak",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item CONE_SPRUCE = registerItem("cone_spruce",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     //Bark
@@ -285,8 +301,20 @@ public class ModItems {
     public static final Item GRASS_TWINE = registerItem("grass_twine",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item BRANCH_ACACIA = registerItem("branch_acacia",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BRANCH_BIRCH = registerItem("branch_birch",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BRANCH_DARK_OAK = registerItem("branch_dark_oak",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BRANCH_JUNGLE = registerItem("branch_jungle",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item BRANCH_OAK = registerItem("branch_oak",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BRANCH_SPRUCE = registerItem("branch_spruce",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+
     public static final Item STURDY_STICK = registerItem("sturdy_stick",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
@@ -310,6 +338,9 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static final Item TINY_CHARCOAL = registerItem("tiny_charcoal",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+    public static final Item SAW = registerItem("saw",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     //register items.
