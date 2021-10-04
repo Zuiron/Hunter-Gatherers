@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "huntergatherers:item/branch_cacia"
+    "layer0": "huntergatherers:item/branch_acacia"
   }
 }
