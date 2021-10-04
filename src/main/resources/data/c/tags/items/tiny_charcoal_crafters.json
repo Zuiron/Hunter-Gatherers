@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "huntergatherers:leaf_oak",
+    "huntergatherers:leaf_birch",
+    "huntergatherers:branch_oak",
+    "huntergatherers:cone_oak",
+    "huntergatherers:cone_birch"
+  ]
+}

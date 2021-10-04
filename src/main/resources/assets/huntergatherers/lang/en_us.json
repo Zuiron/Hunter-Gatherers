@@ -25,6 +25,12 @@
   "item.huntergatherers.bark_jungle": "Jungle Bark",
   "item.huntergatherers.bark_oak": "Oak Bark",
   "item.huntergatherers.bark_spruce": "Spruce Bark",
+  "item.huntergatherers.bark_acacia_bundle": "Acacia Bark Bundle",
+  "item.huntergatherers.bark_birch_bundle": "Birch Bark Bundle",
+  "item.huntergatherers.bark_dark_oak_bundle": "Dark Oak Bark Bundle",
+  "item.huntergatherers.bark_jungle_bundle": "Jungle Bark Bundle",
+  "item.huntergatherers.bark_oak_bundle": "Oak Bark Bundle",
+  "item.huntergatherers.bark_spruce_bundle": "Spruce Bark Bundle",
   "item.huntergatherers.sharp_flint_fragment": "Sharp Flint Fragment",
   "item.huntergatherers.bucket_clay_unfired": "Unfired Clay Bucket",
   "item.huntergatherers.bucket_clay_fired": "Fired Clay Bucket",
@@ -50,5 +56,7 @@
   "item.huntergatherers.stone_small_pile": "Pile Of Small Stone",
   "item.huntergatherers.sturdy_stick": "Sturdy Stick",
   "item.huntergatherers.leaf_bundle": "Bundle Of Leaf",
+  "item.huntergatherers.tiny_charcoal": "Tiny Charcoal",
+  "item.huntergatherers.foresty_bundle": "Foresty Bundle",
   "block.huntergatherers.floramelissia": "Floramelissia"
 }

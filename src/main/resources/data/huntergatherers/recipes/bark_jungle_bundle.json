@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "//",
+    "/O"
+  ],
+  "key": {
+    "/": {
+      "item": "huntergatherers:bark_jungle"
+    },
+    "O": {
+      "item": "huntergatherers:grass_twine"
+    }
+  },
+  "result": {
+    "item": "huntergatherers:bark_jungle_bundle",
+    "count": 1
+  }
+}

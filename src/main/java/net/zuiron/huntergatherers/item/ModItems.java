@@ -309,6 +309,9 @@ public class ModItems {
     public static final Item FORESTY_BUNDLE = registerItem("foresty_bundle",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item TINY_CHARCOAL = registerItem("tiny_charcoal",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
     //register items.
     private static Item registerItem(String name, Item item){
         HunterGatherers.LOGGER.info("Registering item with name: " + name);
