@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "huntergatherers:bark_acacia_bundle",
+    "huntergatherers:bark_birch_bundle",
+    "huntergatherers:bark_dark_oak_bundle",
+    "huntergatherers:bark_jungle_bundle",
+    "huntergatherers:bark_oak_bundle",
+    "huntergatherers:bark_spruce_bundle"
+  ]
+}

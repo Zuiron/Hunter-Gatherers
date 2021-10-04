@@ -2,14 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "/S",
-    "//"
+    "XD"
   ],
   "key": {
     "/": {
       "item": "huntergatherers:sturdy_stick"
     },
+    "X": {
+      "tag": "c:bark_bundle"
+    },
     "S": {
-      "item": "huntergatherers:stone_large_bound"
+      "item": "huntergatherers:stone_large_bound_dry"
+    },
+    "D": {
+      "item": "huntergatherers:stone_long_bound_dry"
     }
   },
   "result": {

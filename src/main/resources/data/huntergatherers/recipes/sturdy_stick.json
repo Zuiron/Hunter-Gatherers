@@ -6,10 +6,10 @@
   ],
   "key": {
     "C": {
-      "tag": "c:cones"
+      "item": "huntergatherers:cone_bundle"
     },
     "B": {
-      "tag": "c:branches"
+      "item": "huntergatherers:branch_bundle"
     },
     "#": {
       "item": "huntergatherers:grass_twine_dry"

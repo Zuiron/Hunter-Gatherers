@@ -1,18 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#B",
-    "BO"
+    "#S/",
+    " /S",
+    "/ #"
   ],
   "key": {
     "#": {
+      "item": "huntergatherers:grass_twine_dry"
+    },
+    "S": {
       "item": "huntergatherers:stone_long_bound_dry"
     },
-    "B": {
+    "/": {
       "item": "huntergatherers:sturdy_stick"
-    },
-    "O": {
-      "item": "huntergatherers:grass_twine_dry"
     }
   },
   "result": {

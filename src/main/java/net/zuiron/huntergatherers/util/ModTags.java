@@ -22,6 +22,8 @@ public class ModTags {
     public static class Items {
         public static final Tag<Item> CONES = createCommonTag("cones");
         public static final Tag<Item> BRANCHES = createCommonTag("branches");
+        public static final Tag<Item> LEAFS = createCommonTag("leafs");
+        public static final Tag<Item> BARK = createCommonTag("bark");
 
         private static Tag<Item> createTag(String name) {
             return TagFactory.ITEM.create(new Identifier(HunterGatherers.MOD_ID, name));

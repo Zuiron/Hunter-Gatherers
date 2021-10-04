@@ -212,6 +212,19 @@ public class ModItems {
     public static final Item BARK_SPRUCE = registerItem("bark_spruce",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item BARK_ACACIA_BUNDLE = registerItem("bark_acacia_bundle",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BARK_BIRCH_BUNDLE = registerItem("bark_birch_bundle",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BARK_DARK_OAK_BUNDLE = registerItem("bark_dark_oak_bundle",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BARK_JUNGLE_BUNDLE = registerItem("bark_jungle_bundle",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BARK_OAK_BUNDLE = registerItem("bark_oak_bundle",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BARK_SPRUCE_BUNDLE = registerItem("bark_spruce_bundle",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
     //flint items
     public static final Item SHARP_FLINT_FRAGMENT = registerItem("sharp_flint_fragment",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
@@ -265,6 +278,8 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item GRASS_FIBRE = registerItem("grass_fibre",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item GRASS_FIBRE_PIECE = registerItem("grass_fibre_piece",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item GRASS_TWINE_DRY = registerItem("grass_twine_dry",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item GRASS_TWINE = registerItem("grass_twine",
@@ -279,13 +294,19 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item CONE_BUNDLE = registerItem("cone_bundle",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item LEAF_BUNDLE = registerItem("leaf_bundle",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item STONE_LARGE_BOUND = registerItem("stone_large_bound",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item STONE_LARGE_BOUND_DRY = registerItem("stone_large_bound_dry",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item STONE_LONG_BOUND = registerItem("stone_long_bound",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item STONE_LONG_DRY = registerItem("stone_long_bound_dry",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item STONE_SMALL_PILE = registerItem("stone_small_pile",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item FORESTY_BUNDLE = registerItem("foresty_bundle",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     //register items.

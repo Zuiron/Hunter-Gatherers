@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB",
+    "CD"
+  ],
+  "key": {
+    "A": {
+      "item": "huntergatherers:cone_bundle"
+    },
+    "B": {
+      "item": "huntergatherers:leaf_bundle"
+    },
+    "C": {
+      "item": "huntergatherers:grass_twine"
+    },
+    "D": {
+      "item": "huntergatherers:branch_bundle"
+    }
+  },
+  "result": {
+    "item": "huntergatherers:foresty_bundle",
+    "count": 1
+  }
+}

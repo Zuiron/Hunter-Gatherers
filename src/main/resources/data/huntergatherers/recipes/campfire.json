@@ -6,16 +6,16 @@
   ],
   "key": {
     "#": {
-      "item": "huntergatherers:branch_bundle"
+      "item": "huntergatherers:foresty_bundle"
     },
     "O": {
-      "tag": "huntergatherers:cone_bundle"
+      "item": "huntergatherers:stone_large_bound"
     },
     "F": {
       "item": "minecraft:flint"
     },
     "S": {
-      "item": "huntergatherers:stone_small_pile"
+      "tag": "c:bark_bundle"
     }
   },
   "result": {
