@@ -4,13 +4,10 @@
   "ingredients": [
     {
       "tag": "minecraft:acacia_logs"
-    },
-    {
-      "item": "huntergatherers:saw"
     }
   ],
   "result": {
-    "item": "minecraft:acacia_planks",
-    "count": 2
+    "item": "minecraft:air",
+    "count": 4
   }
 }
