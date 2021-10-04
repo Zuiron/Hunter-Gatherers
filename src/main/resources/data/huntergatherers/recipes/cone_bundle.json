@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "//",
+    "/O"
+  ],
+  "key": {
+    "/": {
+      "tag": "c:cones"
+    },
+    "O": {
+      "item": "huntergatherers:grass_twine"
+    }
+  },
+  "result": {
+    "item": "huntergatherers:cone_bundle",
+    "count": 1
+  }
+}

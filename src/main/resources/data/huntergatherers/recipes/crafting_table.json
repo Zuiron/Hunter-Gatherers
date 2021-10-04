@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/S",
+    "//"
+  ],
+  "key": {
+    "/": {
+      "item": "huntergatherers:sturdy_stick"
+    },
+    "S": {
+      "item": "huntergatherers:stone_large_bound"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

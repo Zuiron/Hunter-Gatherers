@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "//",
+    "/O"
+  ],
+  "key": {
+    "/": {
+      "tag": "c:branches"
+    },
+    "O": {
+      "item": "huntergatherers:grass_twine"
+    }
+  },
+  "result": {
+    "item": "huntergatherers:branch_bundle",
+    "count": 1
+  }
+}

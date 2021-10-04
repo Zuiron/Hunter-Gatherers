@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#O",
+    "FS"
+  ],
+  "key": {
+    "#": {
+      "item": "huntergatherers:branch_bundle"
+    },
+    "O": {
+      "tag": "huntergatherers:cone_bundle"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "S": {
+      "item": "huntergatherers:stone_small_pile"
+    }
+  },
+  "result": {
+    "item": "minecraft:campfire",
+    "count": 1
+  }
+}

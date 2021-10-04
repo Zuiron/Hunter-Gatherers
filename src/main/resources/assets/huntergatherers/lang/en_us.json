@@ -40,6 +40,12 @@
   "item.huntergatherers.grass_twine_dry": "Dry Grass Twine",
   "item.huntergatherers.grass_twine": "Moist Grass Twine",
   "item.huntergatherers.branch_oak": "Oak Branch",
+  "item.huntergatherers.branch_bundle": "Bundle Of Branches",
+  "item.huntergatherers.cone_bundle": "Bundle Of Cones",
+  "item.huntergatherers.stone_large_bound": "Bound Large Stone",
+  "item.huntergatherers.stone_long_bound": "Bound Long Stone",
+  "item.huntergatherers.stone_long_bound_dry": "Dry Bound Long Stone",
+  "item.huntergatherers.stone_small_pile": "Pile Of Small Stone",
   "item.huntergatherers.sturdy_stick": "Sturdy Stick",
   "block.huntergatherers.floramelissia": "Floramelissia"
 }

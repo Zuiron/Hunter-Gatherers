@@ -275,6 +275,18 @@ public class ModItems {
     public static final Item STURDY_STICK = registerItem("sturdy_stick",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item BRANCH_BUNDLE = registerItem("branch_bundle",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item CONE_BUNDLE = registerItem("cone_bundle",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item STONE_LARGE_BOUND = registerItem("stone_large_bound",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item STONE_LONG_BOUND = registerItem("stone_long_bound",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item STONE_LONG_DRY = registerItem("stone_long_bound_dry",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item STONE_SMALL_PILE = registerItem("stone_small_pile",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     //register items.
     private static Item registerItem(String name, Item item){

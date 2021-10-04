@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/O",
+    "  "
+  ],
+  "key": {
+    "/": {
+      "item": "huntergatherers:stone_long"
+    },
+    "O": {
+      "item": "huntergatherers:grass_twine"
+    }
+  },
+  "result": {
+    "item": "huntergatherers:stone_long_bound",
+    "count": 1
+  }
+}

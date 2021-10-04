@@ -21,10 +21,22 @@ public class modifyLootTables {
     //private static final Identifier WHITE_SHEEP_LOOT_TABLE_ID = new Identifier("minecraft", "entities/sheep/white");
     private static final Identifier COMMON_SHEEP_LOOT_TABLE_ID = new Identifier("minecraft", "entities/sheep");
     private static final Identifier GRASS_ID = new Identifier("minecraft", "blocks/grass");
+    private static final Identifier GRAVEL_BLOCK_LOOT_TABLE_ID = new Identifier("minecraft", "blocks/gravel");
 
     public static void registerModifyLootTables() {
 
         LootTableLoadingCallback.EVENT.register(((resourceManager, manager, id, supplier, setter) -> {
+
+            //add stones to gravel
+            if(GRAVEL_BLOCK_LOOT_TABLE_ID.equals(id)) {
+                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .with(ItemEntry.builder(ModItems.STONE_LARGE).weight(250))
+                        .with(ItemEntry.builder(ModItems.STONE_LONG).weight(250))
+                        .with(ItemEntry.builder(ModItems.STONE_SMALL).weight(500))
+                        .withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(0.0f, 1.0f)).build());
+                supplier.withPool(poolBuilder.build());
+            }
 
             //grass block, when using flint knife drop grass fibre.
             if(GRASS_ID.equals(id)) {
@@ -40,7 +52,7 @@ public class modifyLootTables {
             if(OAK_LEAVES_BLOCK_LOOT_TABLE_ID.equals(id)) {
                 FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .with(ItemEntry.builder(Items.STICK))
+                        .with(ItemEntry.builder(ModItems.BRANCH_OAK))
                         .with(ItemEntry.builder(ModItems.CONE_OAK))
                         .with(ItemEntry.builder(ModItems.LEAF_OAK))
                         .withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(0.0f, 1.0f)).build());
