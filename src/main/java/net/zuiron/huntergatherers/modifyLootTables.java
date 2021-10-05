@@ -51,7 +51,7 @@ public class modifyLootTables {
                         .rolls(ConstantLootNumberProvider.create(1))
                         .with(ItemEntry.builder(ModItems.GRASS_FIBRE_PIECE))
                         .withCondition(MatchToolLootCondition.builder(ItemPredicate.Builder.create().items(ModItems.FLINT_KNIFE)).build())
-                        .withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 3.0f)).build());
+                        .withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(0.0f, 1.0f)).build());
                 supplier.withPool(poolBuilder.build());
             }
 
