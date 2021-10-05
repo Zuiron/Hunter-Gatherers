@@ -95,17 +95,17 @@ class CustomAxeItem extends AxeItem {
             Block blockStripped = context.getWorld().getBlockState(blockPos).getBlock();
 
             if(blockStripped == Blocks.OAK_LOG) {
-                Block.dropStack(world,blockPos,new ItemStack(ModItems.BARK_OAK,getRandomNumberUsingNextInt(0,2)));
+                Block.dropStack(world,blockPos,new ItemStack(ModItems.BARK_OAK,getRandomNumberUsingNextInt(1,3)));
             } else if(blockStripped == Blocks.BIRCH_LOG) {
-                Block.dropStack(world,blockPos,new ItemStack(ModItems.BARK_BIRCH,getRandomNumberUsingNextInt(0,2)));
+                Block.dropStack(world,blockPos,new ItemStack(ModItems.BARK_BIRCH,getRandomNumberUsingNextInt(1,3)));
             } else if(blockStripped == Blocks.ACACIA_LOG) {
-                Block.dropStack(world,blockPos,new ItemStack(ModItems.BARK_ACACIA,getRandomNumberUsingNextInt(0,2)));
+                Block.dropStack(world,blockPos,new ItemStack(ModItems.BARK_ACACIA,getRandomNumberUsingNextInt(1,3)));
             } else if(blockStripped == Blocks.DARK_OAK_LOG) {
-                Block.dropStack(world,blockPos,new ItemStack(ModItems.BARK_DARK_OAK,getRandomNumberUsingNextInt(0,2)));
+                Block.dropStack(world,blockPos,new ItemStack(ModItems.BARK_DARK_OAK,getRandomNumberUsingNextInt(1,3)));
             } else if(blockStripped == Blocks.SPRUCE_LOG) {
-                Block.dropStack(world,blockPos,new ItemStack(ModItems.BARK_SPRUCE,getRandomNumberUsingNextInt(0,2)));
+                Block.dropStack(world,blockPos,new ItemStack(ModItems.BARK_SPRUCE,getRandomNumberUsingNextInt(1,3)));
             } else if(blockStripped == Blocks.JUNGLE_LOG) {
-                Block.dropStack(world,blockPos,new ItemStack(ModItems.BARK_JUNGLE,getRandomNumberUsingNextInt(0,2)));
+                Block.dropStack(world,blockPos,new ItemStack(ModItems.BARK_JUNGLE,getRandomNumberUsingNextInt(1,3)));
             }
 
         } else if (optional2.isPresent()) {
