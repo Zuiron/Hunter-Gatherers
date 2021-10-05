@@ -340,7 +340,7 @@ public class ModItems {
     public static final Item TINY_CHARCOAL = registerItem("tiny_charcoal",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
-    public static final Item SAW = registerItem("saw",
+    public static final Item IRON_SAW = registerItem("iron_saw",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     //register items.

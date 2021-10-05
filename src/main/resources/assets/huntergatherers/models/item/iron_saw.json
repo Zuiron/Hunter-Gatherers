@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "huntergatherers:item/saw"
+    "layer0": "huntergatherers:item/iron_saw"
   }
 }
