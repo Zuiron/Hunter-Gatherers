@@ -2,7 +2,6 @@ package net.zuiron.huntergatherers.item;
 
 import com.google.common.collect.BiMap;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.SharedConstants;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.block.*;
 import net.minecraft.entity.player.PlayerEntity;
@@ -56,21 +55,6 @@ class PrimitiveToolMaterial implements ToolMaterial {
     @Override
     public Ingredient getRepairIngredient() {
         return null;
-    }
-}
-
-class CustomItem extends Item {
-
-    private Item recipeRemainder;
-    //private final Item recipeRemainder;
-
-    public CustomItem(Settings settings) {
-        super(settings);
-    }
-
-    public CustomItem recipeRemainder(Item recipeRemainder) {
-        this.recipeRemainder = ModItems.WOOL_CARDER;
-        return this;
     }
 }
 
@@ -259,14 +243,6 @@ public class ModItems {
     public static final Item SHARP_FLINT_FRAGMENT = registerItem("sharp_flint_fragment",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
-
-    //public static ToolItem POTATO_SHOVEL = new ShovelItem(PotatoToolMaterial.INSTANCE, 1.5F, -3.0F, new Item.Settings().group(ItemGroup.TOOLS));
-    //public static ToolItem POTATO_SWORD = new SwordItem(PotatoToolMaterial.INSTANCE, 3, -2.4F, new Item.Settings().group(ItemGroup.COMBAT));
-
-    //public static ToolItem POTATO_PICKAXE = new CustomPickaxeItem(PotatoToolMaterial.INSTANCE, 1, -2.8F, new Item.Settings().group(ItemGroup.TOOLS));
-    //public static ToolItem POTATO_AXE = new CustomAxeItem(PotatoToolMaterial.INSTANCE, 7.0F, -3.2F, new Item.Settings().group(ItemGroup.TOOLS));
-    //public static ToolItem POTATO_HOE = new CustomHoeItem(PotatoToolMaterial.INSTANCE, 7, -3.2F, new Item.Settings().group(ItemGroup.TOOLS));
-
     public static final Item FLINT_KNIFE = registerItem("flint_knife",
             new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
                     1,
@@ -278,9 +254,6 @@ public class ModItems {
                     3,
                     -2.4f,
                     new FabricItemSettings().group(ItemGroup.MISC)));
-
-    //public static ToolItem POTATO_SWORD = new SwordItem(PotatoToolMaterial.INSTANCE, 3, -2.4F, new Item.Settings().group(ItemGroup.COMBAT));
-
 
     //clay bucket
     /*
@@ -355,20 +328,21 @@ public class ModItems {
     public static final Item TINY_CHARCOAL = registerItem("tiny_charcoal",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
-    /*public static final Item IRON_SAW = registerItem("iron_saw",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));*/
-
     public static final Item IRON_SAW = registerItem("iron_saw",
             new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
                     1,
                     1,
                     new FabricItemSettings().group(ItemGroup.MISC)));
 
-    /*public static final Item WOOL_CARDER = registerItem("wool_carder",
-            new CustomItem(new FabricItemSettings().group(ItemGroup.MISC).recipeRemainder(Items.ACACIA_BOAT)));*/
-
     public static final Item WOOL_CARDER = registerRemainderItem("wool_carder",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+
+
+
+
+
+
 
     private static Item registerRemainderItem(String name, Item item) {
         Item remainderItem = registerItem(name, item);
