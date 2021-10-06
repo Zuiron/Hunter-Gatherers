@@ -2,6 +2,8 @@ package net.zuiron.huntergatherers;
 
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
 import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
+import net.minecraft.block.Blocks;
+import net.minecraft.entity.damage.ProjectileDamageSource;
 import net.minecraft.item.Items;
 import net.minecraft.loot.condition.LootCondition;
 import net.minecraft.loot.condition.LootConditionManager;
@@ -29,6 +31,7 @@ public class modifyLootTables {
     private static final Identifier COMMON_SHEEP_LOOT_TABLE_ID = new Identifier("minecraft", "entities/sheep");
     private static final Identifier GRASS_ID = new Identifier("minecraft", "blocks/grass");
     private static final Identifier GRAVEL_BLOCK_LOOT_TABLE_ID = new Identifier("minecraft", "blocks/gravel");
+    private static final Identifier CHICKEN_LOOT_TABLE_ID = new Identifier("minecraft", "entities/chicken"); //works but very rare?
 
     public static void registerModifyLootTables() {
 

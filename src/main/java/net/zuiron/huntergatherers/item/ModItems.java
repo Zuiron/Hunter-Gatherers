@@ -4,6 +4,7 @@ import com.google.common.collect.BiMap;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.block.*;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FlowableFluid;
 import net.minecraft.fluid.Fluid;
@@ -14,6 +15,8 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.Hand;
+import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
@@ -25,9 +28,9 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Random;
 
-class PotatoToolMaterial implements ToolMaterial {
+class PrimitiveToolMaterial implements ToolMaterial {
 
-    public static final PotatoToolMaterial INSTANCE = new PotatoToolMaterial();
+    public static final PrimitiveToolMaterial INSTANCE = new PrimitiveToolMaterial();
 
     @Override
     public int getDurability() {
@@ -60,9 +63,9 @@ class PotatoToolMaterial implements ToolMaterial {
     }
 }
 
-class CustomAxeItem extends AxeItem {
+class FlintKnifeItem extends AxeItem {
 
-    public CustomAxeItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
+    public FlintKnifeItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
         super(material, attackDamage, attackSpeed, settings);
     }
 
@@ -254,13 +257,13 @@ public class ModItems {
     //public static ToolItem POTATO_HOE = new CustomHoeItem(PotatoToolMaterial.INSTANCE, 7, -3.2F, new Item.Settings().group(ItemGroup.TOOLS));
 
     public static final Item FLINT_KNIFE = registerItem("flint_knife",
-            new CustomAxeItem(PotatoToolMaterial.INSTANCE,
+            new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
                     1,
                     1,
                     new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static final Item STONE_MALLET = registerItem("stone_mallet",
-            new SwordItem(PotatoToolMaterial.INSTANCE,
+            new SwordItem(PrimitiveToolMaterial.INSTANCE,
                     3,
                     -2.4f,
                     new FabricItemSettings().group(ItemGroup.MISC)));
@@ -269,6 +272,7 @@ public class ModItems {
 
 
     //clay bucket
+    /*
     public static final Item CLAY_BUCKET_UNFIRED = registerItem("bucket_clay_unfired",
             new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item CLAY_BUCKET_FIRED = registerItem("bucket_clay_fired",
@@ -277,7 +281,7 @@ public class ModItems {
             new CustomBucketItem(Fluids.WATER, new FabricItemSettings()
                     .recipeRemainder(ModItems.CLAY_BUCKET_FIRED)
                     .group(ItemGroup.MISC)
-            ));
+            ));*/
 
     public static final Item BLUEBERRY = registerItem("blueberry",
             new Item(new FabricItemSettings()
