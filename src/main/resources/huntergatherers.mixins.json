@@ -4,6 +4,7 @@
   "package": "net.zuiron.huntergatherers.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "ItemAccessor"
   ],
   "client": [
     "HunterGatherersMixin"

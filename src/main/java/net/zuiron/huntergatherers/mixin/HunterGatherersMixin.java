@@ -14,3 +14,4 @@ public class HunterGatherersMixin {
 		//HunterGatherers.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }
+

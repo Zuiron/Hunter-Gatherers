@@ -2,29 +2,25 @@ package net.zuiron.huntergatherers.item;
 
 import com.google.common.collect.BiMap;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.SharedConstants;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.block.*;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.fluid.FlowableFluid;
 import net.minecraft.fluid.Fluid;
-import net.minecraft.fluid.Fluids;
 import net.minecraft.item.*;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
-import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
 import net.zuiron.huntergatherers.HunterGatherers;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.zuiron.huntergatherers.mixin.ItemAccessor;
 
-import java.util.Map;
 import java.util.Optional;
 import java.util.Random;
 
@@ -60,6 +56,21 @@ class PrimitiveToolMaterial implements ToolMaterial {
     @Override
     public Ingredient getRepairIngredient() {
         return null;
+    }
+}
+
+class CustomItem extends Item {
+
+    private Item recipeRemainder;
+    //private final Item recipeRemainder;
+
+    public CustomItem(Settings settings) {
+        super(settings);
+    }
+
+    public CustomItem recipeRemainder(Item recipeRemainder) {
+        this.recipeRemainder = ModItems.WOOL_CARDER;
+        return this;
     }
 }
 
@@ -353,8 +364,18 @@ public class ModItems {
                     1,
                     new FabricItemSettings().group(ItemGroup.MISC)));
 
-    public static final Item WOOL_CARDER = registerItem("wool_carder",
+    /*public static final Item WOOL_CARDER = registerItem("wool_carder",
+            new CustomItem(new FabricItemSettings().group(ItemGroup.MISC).recipeRemainder(Items.ACACIA_BOAT)));*/
+
+    public static final Item WOOL_CARDER = registerRemainderItem("wool_carder",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+    private static Item registerRemainderItem(String name, Item item) {
+        Item remainderItem = registerItem(name, item);
+        ((ItemAccessor) remainderItem).setRecipeRemainder(remainderItem);
+
+        return remainderItem;
+    }
 
     //register items.
     private static Item registerItem(String name, Item item){
