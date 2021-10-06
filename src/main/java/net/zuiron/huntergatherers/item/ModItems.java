@@ -344,7 +344,16 @@ public class ModItems {
     public static final Item TINY_CHARCOAL = registerItem("tiny_charcoal",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    /*public static final Item IRON_SAW = registerItem("iron_saw",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));*/
+
     public static final Item IRON_SAW = registerItem("iron_saw",
+            new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
+                    1,
+                    1,
+                    new FabricItemSettings().group(ItemGroup.MISC)));
+
+    public static final Item WOOL_CARDER = registerItem("wool_carder",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     //register items.
