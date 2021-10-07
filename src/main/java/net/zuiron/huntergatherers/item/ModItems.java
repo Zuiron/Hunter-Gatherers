@@ -340,6 +340,24 @@ public class ModItems {
                     1,
                     new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item FLINT_HOE = registerItem("flint_hoe",
+            new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
+                    1,
+                    1,
+                    new FabricItemSettings().group(ItemGroup.MISC)));
+
+    public static final Item FLINT_PICKAXE = registerItem("flint_pickaxe",
+            new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
+                    1,
+                    1,
+                    new FabricItemSettings().group(ItemGroup.MISC)));
+
+    public static final Item FLINT_SHOVEL = registerItem("flint_shovel",
+            new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
+                    1,
+                    1,
+                    new FabricItemSettings().group(ItemGroup.MISC)));
+
     public static final Item WOOL_CARDER = registerRemainderItem("wool_carder",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
