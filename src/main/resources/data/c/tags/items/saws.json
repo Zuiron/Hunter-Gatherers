@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "huntergatherers:stone_saw",
     "huntergatherers:iron_saw"
   ]
 }

@@ -334,6 +334,12 @@ public class ModItems {
                     1,
                     new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item STONE_SAW = registerItem("stone_saw",
+            new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
+                    1,
+                    1,
+                    new FabricItemSettings().group(ItemGroup.MISC)));
+
     public static final Item WOOL_CARDER = registerRemainderItem("wool_carder",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 

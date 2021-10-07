@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/SB",
+    "/S ",
+    "/L "
+  ],
+  "key": {
+    "/": {
+      "item": "huntergatherers:sturdy_stick"
+    },
+    "S": {
+      "item": "huntergatherers:stone_small_pile"
+    },
+    "B": {
+      "item": "huntergatherers:sheep_bones"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "huntergatherers:stone_saw",
+    "count": 1
+  }
+}

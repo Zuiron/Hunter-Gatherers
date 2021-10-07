@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/i/",
+    "iWi",
+    "/i/"
+  ],
+  "key": {
+    "/": {
+      "item": "huntergatherers:sturdy_stick"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "huntergatherers:stone_saw"
+    }
+  },
+  "result": {
+    "item": "huntergatherers:iron_saw",
+    "count": 1
+  }
+}
