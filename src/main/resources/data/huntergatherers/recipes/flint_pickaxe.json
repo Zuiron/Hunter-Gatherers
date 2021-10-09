@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    " C ",
+    " / "
+  ],
+  "key": {
+    "/": {
+      "item": "huntergatherers:sturdy_stick"
+    },
+    "L": {
+      "item": "huntergatherers:sharp_flint_fragment"
+    },
+    "C": {
+      "item": "huntergatherers:grass_twine_dry"
+    }
+  },
+  "result": {
+    "item": "huntergatherers:flint_pickaxe",
+    "count": 1
+  }
+}
