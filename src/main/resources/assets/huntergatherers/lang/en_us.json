@@ -77,6 +77,13 @@
   "item.huntergatherers.tiny_charcoal": "Tiny Charcoal",
   "item.huntergatherers.foresty_bundle": "Foresty Bundle",
   "item.huntergatherers.iron_saw": "Iron Saw",
+  "item.huntergatherers.stone_saw": "Primitive Stone Saw",
+
+  "item.huntergatherers.flint_hoe": "Flint Hoe",
+  "item.huntergatherers.flint_pickaxe": "Flint Pickaxe",
+  "item.huntergatherers.flint_shovel": "Flint Shovel",
+
+  "item.huntergatherers.wool_carder": "Wool Carder",
 
   "block.huntergatherers.floramelissia": "Floramelissia"
 }
