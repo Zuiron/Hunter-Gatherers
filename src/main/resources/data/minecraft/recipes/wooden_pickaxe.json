@@ -1,16 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XXX",
-    " # ",
-    " # "
+    "XBX",
+    "B#B",
+    "XBX"
   ],
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "huntergatherers:flint_pickaxe"
     },
     "X": {
       "tag": "minecraft:planks"
+    },
+    "B": {
+      "item": "minecraft:coal"
     }
   },
   "result": {

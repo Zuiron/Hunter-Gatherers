@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XX",
-    " #",
-    " #"
+    " X ",
+    "X#X",
+    " X "
   ],
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "huntergatherers:flint_hoe"
     },
     "X": {
       "tag": "minecraft:planks"

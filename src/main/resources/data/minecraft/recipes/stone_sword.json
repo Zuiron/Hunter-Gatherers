@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " X ",
+    "XXX",
     "X#X",
-    " X "
+    "XXX"
   ],
   "key": {
     "#": {
-      "item": "huntergatherers:flint_shovel"
+      "item": "minecraft:wooden_sword"
     },
     "X": {
-      "tag": "minecraft:planks"
+      "tag": "minecraft:stone_tool_materials"
     }
   },
   "result": {
-    "item": "minecraft:wooden_shovel"
+    "item": "minecraft:stone_sword"
   }
 }

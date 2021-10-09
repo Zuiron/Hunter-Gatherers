@@ -29,12 +29,12 @@ class PrimitiveToolMaterial implements ToolMaterial {
 
     @Override
     public int getDurability() {
-        return 59;
+        return 30;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 2.0F;
+        return 1.0F;
     }
 
     @Override
@@ -55,6 +55,18 @@ class PrimitiveToolMaterial implements ToolMaterial {
     @Override
     public Ingredient getRepairIngredient() {
         return null;
+    }
+}
+
+class CustomPickaxeItem extends PickaxeItem {
+    public CustomPickaxeItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
+        super(material, attackDamage, attackSpeed, settings);
+    }
+}
+
+class CustomHoeItem extends HoeItem {
+    public CustomHoeItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
+        super(material, attackDamage, attackSpeed, settings);
     }
 }
 
@@ -243,18 +255,6 @@ public class ModItems {
     public static final Item SHARP_FLINT_FRAGMENT = registerItem("sharp_flint_fragment",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
-    public static final Item FLINT_KNIFE = registerItem("flint_knife",
-            new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
-                    1,
-                    1,
-                    new FabricItemSettings().group(ItemGroup.MISC)));
-
-    public static final Item STONE_MALLET = registerItem("stone_mallet",
-            new SwordItem(PrimitiveToolMaterial.INSTANCE,
-                    3,
-                    -2.4f,
-                    new FabricItemSettings().group(ItemGroup.MISC)));
-
     //clay bucket
     /*
     public static final Item CLAY_BUCKET_UNFIRED = registerItem("bucket_clay_unfired",
@@ -328,34 +328,50 @@ public class ModItems {
     public static final Item TINY_CHARCOAL = registerItem("tiny_charcoal",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+
+
+    //----TOOLS
+
+    public static final Item FLINT_KNIFE = registerItem("flint_knife",
+            new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
+                    1,
+                    -3.2F,
+                    new FabricItemSettings().group(ItemGroup.MISC)));
+
+    public static final Item STONE_MALLET = registerItem("stone_mallet",
+            new SwordItem(PrimitiveToolMaterial.INSTANCE,
+                    3,
+                    -2.4f,
+                    new FabricItemSettings().group(ItemGroup.MISC)));
+
     public static final Item IRON_SAW = registerItem("iron_saw",
             new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
                     1,
-                    1,
+                    -3.2F,
                     new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static final Item STONE_SAW = registerItem("stone_saw",
             new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
                     1,
-                    1,
+                    -3.2F,
                     new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static final Item FLINT_HOE = registerItem("flint_hoe",
-            new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
+            new CustomHoeItem(PrimitiveToolMaterial.INSTANCE,
                     1,
-                    1,
+                    -3.2F,
                     new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static final Item FLINT_PICKAXE = registerItem("flint_pickaxe",
-            new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
+            new CustomPickaxeItem(PrimitiveToolMaterial.INSTANCE,
                     1,
-                    1,
+                    -2.8F,
                     new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static final Item FLINT_SHOVEL = registerItem("flint_shovel",
-            new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
+            new ShovelItem(PrimitiveToolMaterial.INSTANCE,
                     1,
-                    1,
+                    -3.2F,
                     new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static final Item WOOL_CARDER = registerRemainderItem("wool_carder",
