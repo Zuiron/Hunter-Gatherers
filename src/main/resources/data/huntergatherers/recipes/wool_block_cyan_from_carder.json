@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "#W"
+  ],
+  "key": {
+    "#": {
+      "item": "huntergatherers:wool_raw_cyan"
+    },
+    "W": {
+      "item": "huntergatherers:wool_carder"
+    }
+  },
+  "result": {
+    "item": "minecraft:cyan_wool",
+    "count": 1
+  }
+}
