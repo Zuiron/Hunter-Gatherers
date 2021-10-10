@@ -154,179 +154,181 @@ class FlintKnifeItem extends AxeItem {
 }
 
 //FIX LATER. um looking at other code on github suggests we need to extend Item instead of BucketItem.
+/*
 class CustomBucketItem extends BucketItem {
     public CustomBucketItem(Fluid fluid, Settings settings) {
         super(fluid, settings);
     }
 }
+*/
 
 public class ModItems {
 
     //Raw Wool
     public static final Item WOOLRAW_BLACK = registerItem("wool_raw_black",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_BROWN = registerItem("wool_raw_brown",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_CYAN = registerItem("wool_raw_cyan",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_BLUE = registerItem("wool_raw_blue",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_DARK_GRAY = registerItem("wool_raw_dark_gray",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_GRAY = registerItem("wool_raw_gray",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_GREEN = registerItem("wool_raw_green",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_LIGHT_BLUE = registerItem("wool_raw_light_blue",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_LIME = registerItem("wool_raw_lime",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_MAGENTA = registerItem("wool_raw_magenta",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_ORANGE = registerItem("wool_raw_orange",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_PINK = registerItem("wool_raw_pink",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_PURPLE = registerItem("wool_raw_purple",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_RED = registerItem("wool_raw_red",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_WHITE = registerItem("wool_raw_white",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item WOOLRAW_YELLOW = registerItem("wool_raw_yellow",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     //Leaf
     public static final Item LEAF_ACACIA = registerItem("leaf_acacia",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item LEAF_BIRCH = registerItem("leaf_birch",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item LEAF_DARK_OAK = registerItem("leaf_dark_oak",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item LEAF_JUNGLE = registerItem("leaf_jungle",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item LEAF_OAK = registerItem("leaf_oak",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item LEAF_SPRUCE = registerItem("leaf_spruce",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     //Cones
     public static final Item CONE_ACACIA = registerItem("cone_acacia",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item CONE_BIRCH = registerItem("cone_birch",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item CONE_DARK_OAK = registerItem("cone_dark_oak",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item CONE_JUNGLE = registerItem("cone_jungle",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item CONE_OAK = registerItem("cone_oak",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item CONE_SPRUCE = registerItem("cone_spruce",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     //Bark
     public static final Item BARK_ACACIA = registerItem("bark_acacia",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BARK_BIRCH = registerItem("bark_birch",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BARK_DARK_OAK = registerItem("bark_dark_oak",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BARK_JUNGLE = registerItem("bark_jungle",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BARK_OAK = registerItem("bark_oak",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BARK_SPRUCE = registerItem("bark_spruce",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     public static final Item BARK_ACACIA_BUNDLE = registerItem("bark_acacia_bundle",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BARK_BIRCH_BUNDLE = registerItem("bark_birch_bundle",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BARK_DARK_OAK_BUNDLE = registerItem("bark_dark_oak_bundle",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BARK_JUNGLE_BUNDLE = registerItem("bark_jungle_bundle",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BARK_OAK_BUNDLE = registerItem("bark_oak_bundle",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BARK_SPRUCE_BUNDLE = registerItem("bark_spruce_bundle",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     //flint items
     public static final Item SHARP_FLINT_FRAGMENT = registerItem("sharp_flint_fragment",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     //clay bucket
     /*
     public static final Item CLAY_BUCKET_UNFIRED = registerItem("bucket_clay_unfired",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS).maxCount(1)));
     public static final Item CLAY_BUCKET_FIRED = registerItem("bucket_clay_fired",
-            new CustomBucketItem(Fluids.EMPTY, new FabricItemSettings().group(ItemGroup.MISC)));
+            new CustomBucketItem(Fluids.EMPTY, new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item CLAY_BUCKET_FIRED_WATER = registerItem("bucket_clay_fired_water",
             new CustomBucketItem(Fluids.WATER, new FabricItemSettings()
                     .recipeRemainder(ModItems.CLAY_BUCKET_FIRED)
-                    .group(ItemGroup.MISC)
+                    .group(ModItemGroup.HUNTERGATHERERS)
             ));*/
-
+/*
     public static final Item BLUEBERRY = registerItem("blueberry",
             new Item(new FabricItemSettings()
                     .food(new FoodComponent.Builder().hunger(2).saturationModifier(0.2f).build())
-                    .group(ItemGroup.MISC)));
-
+                    .group(ModItemGroup.HUNTERGATHERERS)));
+*/
     public static final Item STONE_SMALL = registerItem("stone_small",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item STONE_LARGE = registerItem("stone_large",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item STONE_LONG = registerItem("stone_long",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item SHEEP_BONES = registerItem("sheep_bones",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item GRASS_FIBRE = registerItem("grass_fibre",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item GRASS_FIBRE_PIECE = registerItem("grass_fibre_piece",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item GRASS_TWINE_DRY = registerItem("grass_twine_dry",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item GRASS_TWINE = registerItem("grass_twine",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     public static final Item BRANCH_ACACIA = registerItem("branch_acacia",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BRANCH_BIRCH = registerItem("branch_birch",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BRANCH_DARK_OAK = registerItem("branch_dark_oak",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BRANCH_JUNGLE = registerItem("branch_jungle",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BRANCH_OAK = registerItem("branch_oak",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item BRANCH_SPRUCE = registerItem("branch_spruce",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
 
     public static final Item STURDY_STICK = registerItem("sturdy_stick",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     public static final Item BRANCH_BUNDLE = registerItem("branch_bundle",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item CONE_BUNDLE = registerItem("cone_bundle",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item LEAF_BUNDLE = registerItem("leaf_bundle",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item STONE_LARGE_BOUND = registerItem("stone_large_bound",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item STONE_LARGE_BOUND_DRY = registerItem("stone_large_bound_dry",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item STONE_LONG_BOUND = registerItem("stone_long_bound",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item STONE_LONG_DRY = registerItem("stone_long_bound_dry",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item STONE_SMALL_PILE = registerItem("stone_small_pile",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item FORESTY_BUNDLE = registerItem("foresty_bundle",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     public static final Item TINY_CHARCOAL = registerItem("tiny_charcoal",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
 
 
@@ -336,46 +338,46 @@ public class ModItems {
             new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
                     1,
                     -3.2F,
-                    new FabricItemSettings().group(ItemGroup.MISC)));
+                    new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     public static final Item STONE_MALLET = registerItem("stone_mallet",
             new SwordItem(PrimitiveToolMaterial.INSTANCE,
                     3,
                     -2.4f,
-                    new FabricItemSettings().group(ItemGroup.MISC)));
+                    new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     public static final Item IRON_SAW = registerItem("iron_saw",
             new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
                     1,
                     -3.2F,
-                    new FabricItemSettings().group(ItemGroup.MISC)));
+                    new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     public static final Item STONE_SAW = registerItem("stone_saw",
             new FlintKnifeItem(PrimitiveToolMaterial.INSTANCE,
                     1,
                     -3.2F,
-                    new FabricItemSettings().group(ItemGroup.MISC)));
+                    new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     public static final Item FLINT_HOE = registerItem("flint_hoe",
             new CustomHoeItem(PrimitiveToolMaterial.INSTANCE,
                     1,
                     -3.2F,
-                    new FabricItemSettings().group(ItemGroup.MISC)));
+                    new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     public static final Item FLINT_PICKAXE = registerItem("flint_pickaxe",
             new CustomPickaxeItem(PrimitiveToolMaterial.INSTANCE,
                     1,
                     -2.8F,
-                    new FabricItemSettings().group(ItemGroup.MISC)));
+                    new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     public static final Item FLINT_SHOVEL = registerItem("flint_shovel",
             new ShovelItem(PrimitiveToolMaterial.INSTANCE,
                     1,
                     -3.2F,
-                    new FabricItemSettings().group(ItemGroup.MISC)));
+                    new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
     public static final Item WOOL_CARDER = registerRemainderItem("wool_carder",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
 
 

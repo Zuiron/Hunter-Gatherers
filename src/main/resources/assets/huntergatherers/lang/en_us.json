@@ -1,10 +1,12 @@
 {
+  "itemGroup.huntergatherers.huntergatherers": "Hunter Gatherer's",
+
   "item.huntergatherers.wool_raw_black": "Black Raw Wool",
   "item.huntergatherers.wool_raw_brown": "Brown Raw Wool",
   "item.huntergatherers.wool_raw_cyan": "Cyan Raw Wool",
   "item.huntergatherers.wool_raw_blue": "Blue Raw Wool",
-  "item.huntergatherers.wool_raw_dark_gray": "Dark Gray Raw Wool",
-  "item.huntergatherers.wool_raw_gray": "Gray Raw Wool",
+  "item.huntergatherers.wool_raw_dark_gray": "Gray Raw Wool",
+  "item.huntergatherers.wool_raw_gray": "Light Gray Raw Wool",
   "item.huntergatherers.wool_raw_green": "Green Raw Wool",
   "item.huntergatherers.wool_raw_light_blue": "Light Blue Raw Wool",
   "item.huntergatherers.wool_raw_lime": "Lime Raw Wool",
