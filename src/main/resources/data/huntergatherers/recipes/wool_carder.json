@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "OOO",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "huntergatherers:stone_small_pile"
+    },
+    "O": {
+      "item": "huntergatherers:branch_bundle"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "huntergatherers:wool_carder",
+    "count": 1
+  }
+}
