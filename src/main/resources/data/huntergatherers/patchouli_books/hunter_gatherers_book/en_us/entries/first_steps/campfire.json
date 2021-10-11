@@ -1,0 +1,17 @@
+{
+  "name": "Campfire",
+  "sortnum": 6,
+  "icon": "minecraft:campfire",
+  "category": "huntergatherers:first_steps",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:campfire",
+      "text": "Next step is the Campfire! Now you have learned about grass, leaves, flint and stones. Its time for the campfire."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "huntergatherers:campfire"
+    }
+  ]
+}

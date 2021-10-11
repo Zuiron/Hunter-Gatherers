@@ -1,0 +1,18 @@
+{
+  "name": "Punching Gravel?",
+  "sortnum": 0,
+  "icon": "minecraft:gravel",
+  "category": "huntergatherers:first_steps",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:gravel",
+      "text": "Firstly you need to find some gravel and break it, This will yield you not only flint but also different types of rocks. Which you will need later on for crafting different kinds of items and tools."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "huntergatherers:flint_knife",
+      "text": "After you have gathered at least 2x Flint and 10x Small Stone. Then it is time to begin to craft the Flint Knife!"
+    }
+  ]
+}

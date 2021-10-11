@@ -1,0 +1,17 @@
+{
+  "name": "Bark",
+  "sortnum": 3,
+  "icon": "huntergatherers:bark_birch",
+  "category": "huntergatherers:first_steps",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "huntergatherers:bark_birch",
+      "text": "Your flint knife is also useful for other things such as Bark! Right click on logs to get bark. you can also combine bark to get bundled bark which is required for certain recipes."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "huntergatherers:bark_birch_bundle"
+    }
+  ]
+}

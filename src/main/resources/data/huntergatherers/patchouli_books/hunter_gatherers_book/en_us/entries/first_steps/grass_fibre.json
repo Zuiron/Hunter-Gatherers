@@ -1,0 +1,18 @@
+{
+  "name": "Grass Fibres",
+  "sortnum": 2,
+  "icon": "huntergatherers:grass_fibre_piece",
+  "category": "huntergatherers:first_steps",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "huntergatherers:grass_fibre_piece",
+      "text": "By using your new Flint Knife on grass you will get grass fibre pieces. Combine pieces to craft Moist Grass Fibre. Later on you will need twine."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "huntergatherers:grass_fibre",
+      "recipe2": "huntergatherers:grass_twine"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "The Flint Knife",
+  "sortnum": 1,
+  "icon": "huntergatherers:flint_knife",
+  "category": "huntergatherers:first_steps",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "huntergatherers:sharp_flint_fragment",
+      "text": "Now it is time for the Flint Knife. This is used to gather grass fibre pieces. So what are you waiting for? Craft the knife and punch grass with it!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "huntergatherers:stone_small_pile",
+      "recipe2": "huntergatherers:flint_knife",
+      "text": "Now it is time for the Flint Knife. This is used to gather grass fibre pieces. So what are you waiting for? Craft the knife and punch grass with it!"
+    }
+  ]
+}

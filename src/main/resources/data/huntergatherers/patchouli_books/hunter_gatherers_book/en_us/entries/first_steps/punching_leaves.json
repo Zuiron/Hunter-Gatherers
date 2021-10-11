@@ -1,0 +1,23 @@
+{
+  "name": "Punching Leaves?",
+  "sortnum": 4,
+  "icon": "minecraft:oak_leaves",
+  "category": "huntergatherers:first_steps",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:oak_leaves",
+      "text": "By punching leaves it will yield cones, branches and leaf's. these can be combined also."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "huntergatherers:cone_bundle",
+      "recipe2": "huntergatherers:leaf_bundle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "huntergatherers:branch_bundle",
+      "recipe2": "huntergatherers:foresty_bundle"
+    }
+  ]
+}
