@@ -1,6 +1,12 @@
 {
   "itemGroup.huntergatherers.huntergatherers": "Hunter Gatherer's",
 
+  "tooltip.huntergatherers.flint_knife_shift": "Right click on logs to debark them and get bark.",
+  "tooltip.huntergatherers.flint_knife": "§eSHIFT§r Break grass to get grass fibre pieces.",
+
+  "tooltip.huntergatherers.saw_shift": "Right click on logs to debark them and get bark.",
+  "tooltip.huntergatherers.saw": "§eSHIFT§r Break logs to get planks.",
+
   "item.huntergatherers.wool_raw_black": "Black Raw Wool",
   "item.huntergatherers.wool_raw_brown": "Brown Raw Wool",
   "item.huntergatherers.wool_raw_cyan": "Cyan Raw Wool",
