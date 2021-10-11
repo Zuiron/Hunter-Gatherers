@@ -1,13 +1,8 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "planks",
-  "ingredients": [
-    {
-      "tag": "minecraft:spruce_logs"
-    }
-  ],
-  "result": {
-    "item": "minecraft:air",
-    "count": 4
-  }
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "minecraft:spruce_logs"
+  },
+  "result": "minecraft:spruce_planks",
+  "count": 4
 }
