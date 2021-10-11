@@ -1,0 +1,17 @@
+{
+  "name": "Tiny Charcoal",
+  "sortnum": 2,
+  "icon": "huntergatherers:tiny_charcoal",
+  "category": "huntergatherers:using_campfire",
+  "pages": [
+    {
+      "type": "patchouli:campfire",
+      "recipe": "huntergatherers:tiny_charcoal",
+      "text": "Put cones, leafs or branches on campfire to make tiny charcoal. Combine 9x to make 1x Charcoal."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "huntergatherers:charcoal"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Wool Carder",
+  "sortnum": 4,
+  "icon": "huntergatherers:wool_carder",
+  "category": "huntergatherers:tools",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "huntergatherers:wool_carder",
+      "text": "Used to turn raw wool into wool blocks."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "huntergatherers:wool_block_white_from_carder"
+    }
+  ]
+}

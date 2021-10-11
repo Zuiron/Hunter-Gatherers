@@ -1,0 +1,17 @@
+{
+  "name": "Iron Ore",
+  "sortnum": 1,
+  "icon": "minecraft:iron_ore",
+  "category": "huntergatherers:iron_age",
+  "pages": [
+    {
+      "type": "patchouli:campfire",
+      "recipe": "huntergatherers:iron_nugget_from_raw_iron_campfire",
+      "text": "You will need to mine at least 9x Raw Iron in order to progress or get really lucky by raiding villages to find an iron ingot. First make iron nuggets from the raw iron you gathered on the campfire then combine the nuggets into an ingot."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_ingot_from_nuggets"
+    }
+  ]
+}

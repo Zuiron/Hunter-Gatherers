@@ -1,0 +1,17 @@
+{
+  "name": "More Planks!",
+  "sortnum": 1,
+  "icon": "minecraft:stonecutter",
+  "category": "huntergatherers:how_to_planks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:stonecutter",
+      "text": "If you can afford it it wouldn't be a bad idea to get yourself a stonecutter for more plank output per log. This time you can even use de-barked logs to make planks!"
+    },
+    {
+      "type": "patchouli:stonecutting",
+      "recipe": "minecraft:oak_planks"
+    }
+  ]
+}

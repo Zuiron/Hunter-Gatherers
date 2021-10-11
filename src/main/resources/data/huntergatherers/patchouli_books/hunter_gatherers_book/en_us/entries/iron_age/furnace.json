@@ -1,0 +1,17 @@
+{
+  "name": "Furnace",
+  "sortnum": 2,
+  "icon": "minecraft:furnace",
+  "category": "huntergatherers:iron_age",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:furnace",
+      "text": "Congrats! it is now time for the furnace, use your one piece of iron to craft a furnace. you can now use the furnace to smelt Raw Iron to get much better yields! Use this opportunity to craft yourself some iron tools!"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:iron_ingot_from_smelting_raw_iron"
+    }
+  ]
+}

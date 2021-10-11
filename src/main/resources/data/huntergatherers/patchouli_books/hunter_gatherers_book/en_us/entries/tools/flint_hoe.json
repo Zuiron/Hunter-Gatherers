@@ -1,0 +1,18 @@
+{
+  "name": "Flint Hoe",
+  "sortnum": 1,
+  "icon": "huntergatherers:flint_hoe",
+  "category": "huntergatherers:tools",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "huntergatherers:flint_hoe",
+      "text": "This is your early hoe. which can also be upgraded."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wooden_hoe",
+      "recipe2": "minecraft:stone_hoe"
+    }
+  ]
+}

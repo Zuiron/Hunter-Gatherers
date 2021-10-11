@@ -1,0 +1,18 @@
+{
+  "name": "Coal Ore",
+  "sortnum": 0,
+  "icon": "minecraft:coal",
+  "category": "huntergatherers:iron_age",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:coal_ore",
+      "text": "Your first step is to gather some coal. First craft a Primitive Pickaxe then find coal ore. Next Step is to upgrade your pickaxe to Stone Pickaxe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wooden_pickaxe",
+      "recipe2": "minecraft:stone_pickaxe"
+    }
+  ]
+}

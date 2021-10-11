@@ -1,0 +1,16 @@
+{
+  "name": "The Sturdy Stick",
+  "sortnum": 1,
+  "icon": "huntergatherers:sturdy_stick",
+  "category": "huntergatherers:using_campfire",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "You will need to create a sturdy stick for further progress."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "huntergatherers:sturdy_stick"
+    }
+  ]
+}
