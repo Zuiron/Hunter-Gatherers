@@ -7,7 +7,7 @@
   ],
   "key": {
     "/": {
-      "item": "huntergatherers:sturdy_stick"
+      "tag": "minecraft:planks"
     },
     "i": {
       "item": "minecraft:iron_ingot"
