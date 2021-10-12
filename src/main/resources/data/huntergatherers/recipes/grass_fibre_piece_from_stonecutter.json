@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:grass"
+  },
+  "result": "huntergatherers:grass_fibre_piece",
+  "count": 16
+}
