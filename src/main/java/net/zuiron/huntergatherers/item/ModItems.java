@@ -7,7 +7,6 @@ import net.minecraft.block.*;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.fluid.Fluid;
 import net.minecraft.item.*;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.server.network.ServerPlayerEntity;
@@ -299,15 +298,6 @@ class FlintKnifeItem extends AxeItem {
     }
 }
 
-//FIX LATER. um looking at other code on github suggests we need to extend Item instead of BucketItem.
-/*
-class CustomBucketItem extends BucketItem {
-    public CustomBucketItem(Fluid fluid, Settings settings) {
-        super(fluid, settings);
-    }
-}
-*/
-
 public class ModItems {
 
     //Raw Wool
@@ -403,23 +393,7 @@ public class ModItems {
     public static final Item SHARP_FLINT_FRAGMENT = registerItem("sharp_flint_fragment",
             new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
 
-    //clay bucket
-    /*
-    public static final Item CLAY_BUCKET_UNFIRED = registerItem("bucket_clay_unfired",
-            new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS).maxCount(1)));
-    public static final Item CLAY_BUCKET_FIRED = registerItem("bucket_clay_fired",
-            new CustomBucketItem(Fluids.EMPTY, new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
-    public static final Item CLAY_BUCKET_FIRED_WATER = registerItem("bucket_clay_fired_water",
-            new CustomBucketItem(Fluids.WATER, new FabricItemSettings()
-                    .recipeRemainder(ModItems.CLAY_BUCKET_FIRED)
-                    .group(ModItemGroup.HUNTERGATHERERS)
-            ));*/
-/*
-    public static final Item BLUEBERRY = registerItem("blueberry",
-            new Item(new FabricItemSettings()
-                    .food(new FoodComponent.Builder().hunger(2).saturationModifier(0.2f).build())
-                    .group(ModItemGroup.HUNTERGATHERERS)));
-*/
+
     public static final Item STONE_SMALL = registerItem("stone_small",
             new Item(new FabricItemSettings().group(ModItemGroup.HUNTERGATHERERS)));
     public static final Item STONE_LARGE = registerItem("stone_large",

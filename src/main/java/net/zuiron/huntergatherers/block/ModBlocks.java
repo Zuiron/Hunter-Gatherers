@@ -15,20 +15,6 @@ import net.zuiron.huntergatherers.HunterGatherers;
 
 public class ModBlocks {
 
-    /*
-    public static final Block RUBY_ORE = registerBlock("ruby_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f)
-                    .breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
-     */
-
-    //flowers
-    public static final Block FLORAMELISSIA = registerBlock("floramelissia",
-            new FlowerBlock(StatusEffect.byRawId(1),1, AbstractBlock.Settings.copy(Blocks.POPPY)));
-        //new Block(FabricBlockSettings.of(Material.REPLACEABLE_PLANT).noCollision()));
-
-
-
-
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registry.BLOCK, new Identifier(HunterGatherers.MOD_ID, name), block);

@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "huntergatherers:item/bucket_clay_fired_water"
-  }
-}

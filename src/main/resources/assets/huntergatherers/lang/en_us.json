@@ -53,11 +53,7 @@
   "item.huntergatherers.bark_spruce_bundle": "Spruce Bark Bundle",
 
   "item.huntergatherers.sharp_flint_fragment": "Sharp Flint Fragment",
-  "item.huntergatherers.bucket_clay_unfired": "Unfired Clay Bucket",
-  "item.huntergatherers.bucket_clay_fired": "Fired Clay Bucket",
-  "item.huntergatherers.bucket_clay_fired_water": "Filled Fired Clay Bucket",
   "item.huntergatherers.flint_knife": "Flint Knife",
-  "item.huntergatherers.blueberry": "Blueberry",
   "item.huntergatherers.stone_small": "Small Stone",
   "item.huntergatherers.stone_large": "Large Stone",
   "item.huntergatherers.stone_long": "Long Stone",
@@ -91,7 +87,5 @@
   "item.huntergatherers.flint_pickaxe": "Flint Pickaxe",
   "item.huntergatherers.flint_shovel": "Flint Shovel",
 
-  "item.huntergatherers.wool_carder": "Wool Carder",
-
-  "block.huntergatherers.floramelissia": "Floramelissia"
+  "item.huntergatherers.wool_carder": "Wool Carder"
 }
